@@ -1,327 +1,446 @@
 <!DOCTYPE html>
-<!--
-Template Name: Spourmo
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
--->
-<html lang="">
-  <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<html lang="en">
   <head>
-    <title>Digital Innovation</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2G1HMGKLL5"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2G1HMGKLL5"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-2G1HMGKLL5');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-2G1HMGKLL5");
     </script>
-    
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Innovation Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <link
-      href="layout/styles/layout.css"
       rel="stylesheet"
-      type="text/css"
-      media="all"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300;700&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="image/logo.jpeg" />
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="top">
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="wrapper row0">
-      <div id="topbar" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <div class="fl_left">
-          <ul class="nospace">
-            <li>
-              <i class="fas fa-mobile-alt rgtspace-5"></i> +62 821-7594-5539
+  <body>
+    <!--   header start -->
+    <nav id="navbar" class="navbar nav navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <img class="img-fluid" src="image/logo.jpeg" alt="Godhong Ijo Farm" />
+          <span class="h2"> Digital Innovation Home </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="">
+            <i class="bi bi-list"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link scroll" aria-current="page" href="#home"
+                >Home
+              </a>
             </li>
-            <li>
-              <i class="far fa-envelope rgtspace-5"></i>
-              innovation.dept@gg-foods.com
+            <li class="nav-item fw-bold">
+              <a class="nav-link scroll fw-bold" href="#about">Tentang Kami</a>
             </li>
-          </ul>
-        </div>
-        <div class="fl_right">
-          <ul class="nospace">
-            <li>
-              <a href="#"><i class="fas fa-home"></i></a>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#services">Project</a>
             </li>
-            <li>
-              <a href="#" title="Help Centre"
-                ><i class="far fa-life-ring"></i
-              ></a>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#gallery">Achievement</a>
             </li>
-            <li>
-              <a href="#" title="Login"><i class="fas fa-sign-in-alt"></i></a>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#blog">Dokumentasi</a>
             </li>
-            <li>
-              <a href="#" title="Sign Up"><i class="fas fa-edit"></i></a>
-            </li>
-            <li id="searchform">
-              <div>
-                <form action="#" method="post">
-                  <fieldset>
-                    <legend>Quick Search:</legend>
-                    <input
-                      type="text"
-                      placeholder="Enter search term&hellip;"
-                    />
-                    <button type="submit"><i class="fas fa-search"></i></button>
-                  </fieldset>
-                </form>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link btn-one" href="#contact">Kontak Kami</a>
             </li>
           </ul>
         </div>
-        <!-- ################################################################################################ -->
       </div>
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="wrapper row1">
-      <section id="ctdetails" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <ul class="nospace clear">
-          <li class="one_quarter first">
-            <div class="block clear">
-              <a href="#"><i class="fas fa-phone"></i></a>
-              <span><strong>Give us a call:</strong> +62 821-7594-5539</span>
-            </div>
-          </li>
-          <li class="one_quarter">
-            <div class="block clear">
-              <a href="#"><i class="fas fa-envelope"></i></a>
-              <span
-                ><strong>Send us a mail:</strong>
-                innovation.dept@gg-foods.com</span
-              >
-            </div>
-          </li>
-          <li class="one_quarter">
-            <div class="block clear">
-              <a href="#"><i class="fas fa-clock"></i></a>
-              <span><strong> Senin - Jum'at :</strong> 08.00 - 16.00 WIB</span>
-              <span><strong> Sabtu :</strong> 08.00 - 12.00 WIB</span>
-            </div>
-          </li>
-          <li class="one_quarter">
-            <div class="block clear">
-              <a href="#"><i class="fas fa-map-marker-alt"></i></a>
-              <span
-                ><strong>Come visit us:</strong> Directions to
-                <a href="https://goo.gl/maps/PNPb5saUg2TS9Ky99"
-                  >our office</a
-                ></span
-              >
-            </div>
-          </li>
-        </ul>
-        <!-- ################################################################################################ -->
-      </section>
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- Top Background Image Wrapper -->
-    <div
-      class="bgded overlay padtop"
-      style="background-image: url('images/a.jpg')"
-    >
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <header id="header" class="hoc clear">
-        <div id="logo" class="fl_left">
-          <!-- ################################################################################################ -->
-          <h1><a href="index.html">Innovation Space</a></h1>
-          <!-- ################################################################################################ -->
-        </div>
-        <nav id="mainav" class="fl_right">
-          <!-- ################################################################################################ -->
-          <ul class="clear">
-            <li class="active"><a href="index.html">Home</a></li>
-          </ul>
-          <!-- ################################################################################################ -->
-        </nav>
-      </header>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <div id="pageintro" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <article>
-          <h3 class="heading">Digital Innovation Monthly Highlight</h3>
-          <p>
-            Platform Highlight Project dan Product Innovation Great Giant Foods.
-          </p>
-          <footer>
-            <ul class="nospace inline pushright">
-              <li><a class="btn" href="#">Great Giant Foods</a></li>
-              <li><a class="btn inverse" href="#">Innovation</a></li>
-              <li><a class="btn inverse" href="#">Idea</a></li>
-            </ul>
-          </footer>
-        </article>
-        <!-- ################################################################################################ -->
-      </div>
-      <!-- ################################################################################################ -->
-    </div>
-    <!-- End Top Background Image Wrapper -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="wrapper row3">
-      <main class="hoc container clear">
-        <!-- main body -->
-        <!-- ################################################################################################ -->
-        <section id="introblocks">
-          <ul class="nospace group grid-3">
-            
-          </ul>
-
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-
-
-          <embed type="application/pdf" src="docs/IMH Maret 2022.pdf" width="1000" height="700"></embed>
-
-
-        </section>
-        <!-- ################################################################################################ -->
-        <!-- / main body -->
-        <div class="clear"></div>
-      </main>
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="bgded overlay" style="background-image: url('images/c.jpg')">
-      <section id="testimonials" class="hoc container clear">
-        <!-- ################################################################################################ -->
-        <!-- ################################################################################################ -->
-      </section>
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- Bottom Background Image Wrapper -->
-    <div class="bgded overlay" style="background-image: url('images/c.jpg')">
-      <!-- ################################################################################################ -->
-      <div class="wrapper row4">
-        <footer id="footer" class="hoc clear">
-          <!-- ################################################################################################ -->
-          <div class="group btmspace-50">
-            <div class="one_third first">
-              <center><h6 class="heading">Digital Innovation Departemen</h6></center>
-              <p>
-                Digital Innovation mengacu pada penerapan teknologi digital pada permasalahan bisnis yang ada.
-                Bisnis yang merupakan inovator digital mempertimbangkan cara baru untuk memecahkan masalah lama. 
-                Transformasi digital adalah proses beralih ke pendekatan baru itu.
-              </p>
-              <ul class="faico clear">
-                <li>
-                  <a class="faicon-facebook" href="#"
-                    ><i class="fab fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="faicon-google-plus" href="#"
-                    ><i class="fab fa-google-plus-g"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="faicon-linkedin" href="#"
-                    ><i class="fab fa-linkedin"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="faicon-twitter" href="#"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="faicon-vk" href="#">
-                    <i class="fab fa-vk"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="one_third">
-              <center><h6 class="heading">Tim Innovation Monthly Highlight</h6></center>
-              <ul class="nospace linklist">
-                <li><a href="#">Alvin Ramaquita</a></li>
-                <li><a href="#">Dita Krisnawati</a></li>
-                <li><a href="#">Muhammad Fajar Kurniawan</a></li>
-              </ul>
-            </div>
-            <div class="one_third">
-              <center><h6 class="heading">Digital Innovation Key</h6></center>
-              <ul class="nospace clear latestimg">
-                <li>
-                  <a class="imgover" href="#"
-                    ><img src="images/key1.png" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a class="imgover" href="#"
-                    ><img src="images/key2.png" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a class="imgover" href="#"
-                    ><img src="images/key3.png" alt=""
-                  /></a>
-                </li>
-              </ul>
+    </nav>
+    <!--   header end -->
+    <!--    banner area start-->
+    <div class="bg-image" id="home">
+      <div class="cotainer">
+        <div class="row">
+          <div class="col-lg-8 text-white mx-auto text-center">
+            <h1 class="display-3 spell-one fw-bold text-center">
+              Friendly Technology, Coming at you!
+            </h1>
+            <div class="spell-two">
+              <h3 class="card-title text-bold">Digital Innovation Dept.</h3>
+              <p class="h5">2023</p>
+              <p></p>
             </div>
           </div>
-          <!-- ################################################################################################ -->
-        </footer>
-      </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <div class="wrapper row5">
-        <div id="copyright" class="hoc clear">
-          <!-- ################################################################################################ -->
-          <p class="fl_left">
-            Copyright &copy; 2022 - All Rights Reserved -
-            <a href="https://diginnovation.github.io/">Digital Innovation</a>
-          </p>
-          <p class="fl_right">
-            Template by
-            <a
-              target="_blank"
-              href="https://www.os-templates.com/"
-              title="Free Website Templates"
-              >OS Templates</a
-            >
-          </p>
-          <!-- ################################################################################################ -->
         </div>
       </div>
-      <!-- ################################################################################################ -->
     </div>
-    <!-- End Bottom Background Image Wrapper -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
-    <!-- JAVASCRIPTS -->
-    <script src="layout/scripts/jquery.min.js"></script>
-    <script src="layout/scripts/jquery.backtotop.js"></script>
-    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <!--banner area end-->
+    <!--    about area start -->
+    <div class="container my-5 py-5" id="about">
+      <div class="row">
+        <div class="col-lg-12 mb-5">
+          <h1 class="fw-bold text-center">Tentang Kami</h1>
+          <hr class="my-hr" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="fw-bold">Digital Innovation Key.</h1>
+          <p class="h5 my-5">Visi Misi Digital Innovation.</p>
+          <div class="about-scroll">
+            <span class="">Orchastarion</span>
+            <hr />
+            <span class="">Project</span>
+            <hr />
+            <span class="">Own Project</span>
+            <hr />
+          </div>
+        </div>
+        <div class="col-lg-6 my-5 py-5">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item my-auto active">
+                <img src="image/a.JPG" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item my-auto">
+                <img src="image/b.JPG" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item my-auto">
+                <img src="image/c.JPG" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item my-auto">
+                <img src="image/d.JPG" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   about area end-->
+    <!--    service area start -->
+    <div class="bg-aku py-5" id="services">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="fw-bold text-center text-white" data-aos="zoom-out-down">
+              Project
+            </h1>
+            <hr class="my-hr" />
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4" data-aos="fade-right">
+              <div class="card">
+                <img
+                  src="image/a.JPG"
+                  class="card-img-top"
+                  alt="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">Project A</h5>
+                  <p class="">Deskripsi</p>
+                  <p class="card-text">
+                    <small class="text-muted">PIC</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up">
+              <div class="card">
+                <img
+                  src="image/b.JPG"
+                  class="card-img-top"
+                  alt="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">Project A</h5>
+                  <p class="">Deskripsi</p>
+                  <p class="card-text">
+                    <small class="text-muted">PIC</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-left">
+              <div class="card">
+                <img
+                  src="image/c.JPG"
+                  class="card-img-top"
+                  alt="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">Project A</h5>
+                  <p class="">Deskripsi</p>
+                  <p class="card-text">
+                    <small class="text-muted">PIC</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4" data-aos="fade-right"><div class="card"><img src="image/13cow.jpg" class="card-img-top" alt="card-img-top"><div class="card-body"><h5 class="card-title text-center"> Ipsum Dolor.</h5><p class="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p class="card-text"><small class="text-muted">Last updated 1 month ago</small></p></div></div></div><div class="col-lg-4" data-aos="fade-down"><div class="card"><img src="image/14gg.jpg" class="card-img-top" alt="card-img-top"><div class="card-body"><h5 class="card-title text-center">Ard title</h5><p class="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p class="card-text"><small class="text-muted">Last updated 1 month ago</small></p></div></div></div><div class="col-lg-4" data-aos="fade-left"><div class="card"><img src="image/10familly.jpg" class="card-img-top" alt="card-img-top"><div class="card-body"><h5 class="card-title text-center">Team Work</h5><p class="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p class="card-text"><small class="text-muted">Last updated 1 month ago</small></p></div></div></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  service area end-->
+    <!--    section area start-->
+    <div class="container" id="gallery">
+      <div class="row mt-5">
+        <div class="col-lg-12 text-center" data-aos="fade-down-right">
+          <p class="h1 fw-bold">Achievement</p>
+          <hr class="my-hr" />
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-lg-4 my-3" data-aos="fade-up">
+          <div class="img-box">
+            <img class="img-fluid" src="image/g.JPG" alt="" />
+            <div class="overly"></div>
+            <p>BMG Six Sigma 2021.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section area end-->
+    <!--    blog area start-->
+    <div class="bgg-aku" id="blog">
+      <div class="container py-5 my-5">
+        <div class="card-tw px-2 my-3">
+          <div class="row">
+            <div
+              class="col-lg-12 text-white text-center"
+              data-aos="fade-down-right"
+            >
+              <p class="h1 fw-bold" data-aos="zoom-in">Dokumentasi</p>
+              <hr class="my-hr" />
+            </div>
+            <div class="row g-5">
+              <div class="col-lg-4">
+                <div class="dg-card">
+                  <img
+                    src="image/c.JPG"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="px-3">
+                    <p class="h5 mt-3">Digital Innovation Office</p>
+                    <h3 class="text-center">Training</h3>
+                    <h3 class="text-center">Deskripsi</h3>
+                    <p class="h6 text-center">PIC</p>
+                    <!-- <div class="h3 text-center my-4"><a href="#">More</a></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    blog area end-->
+    <!--contact area start-->
+    <div class="bg-akuu" id="contact">
+      <div class="container py-5 my-5">
+        <div class="row">
+          <div class="col-lg-12 text-center fw-bold">
+            <h1 class="">Hubungi Kami</h1>
+            <hr class="my-hr" />
+            <h5 class="mt-5 text-dark">
+              Hubungi kami untuk informasi lebih lanjut atau pertanyaan Anda.
+            </h5>
+          </div>
+        </div>
+        <div class="row mb-5 g-4">
+          <div class="col-lg-4">
+            <div class="akku text-center mx-2">
+              <div class="pt-3">
+                <i class="bi bi-telephone-fill h1"></i>
+              </div>
+              <h3>Nomor Telepon</h3>
+              <h6 class="">Whatsapp</h6>
+              <div class="pb-3">
+                <a href="https://wa.me/6282153246396" class="h4"
+                  >+62 821 5324 6396</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="akku text-center mx-2">
+              <div class="pt-3">
+                <i class="bi bi-envelope-fill h1"></i>
+              </div>
+              <h3>Email</h3>
+              <h6 class="">Gmail</h6>
+              <div class="pb-3">
+                <a
+                  href="mailto:innovation.dept@gg-foods.com"
+                  target="_blank"
+                  class="h4"
+                >
+                  innovation.dept@gg-foods.com
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="akku text-center mx-2">
+              <div class="pt-3">
+                <i class="bi bi-geo-alt h1"></i>
+              </div>
+              <h3>Lokasi</h3>
+              <h6 class="">Digital Innovation Office</h6>
+              <div class="pb-3">
+                <a
+                  href="https://goo.gl/maps/z2CdHjyTRmRknULJ8"
+                  target="_blank"
+                  class="h4"
+                >
+                  View on Google map
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contact area end-->
+    <!--    footer area start     -->
+    <div class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <p class="h2 farm">Digital Innovation</p>
+            <p>
+              Deskripsi.
+            </p>
+            <!-- <div class="social"><i class="bi bi-facebook pe-3 h4"></i><i class="bi bi-twitter pe-3 h4"></i><i class="bi bi-linkedin pe-3 h4"></i><i class="bi bi-instagram pe-3 h4"></i></div> -->
+          </div>
+          <div class="col-lg-2 text-muted">
+            <p class="h4"></p>
+            <ul class="list-unstyled lh-lg"></ul>
+          </div>
+          <div class="col-lg-2 text-muted lh-lg">
+            <p class="h4"></p>
+            <ul class="list-unstyled"></ul>
+          </div>
+          <div class="col-lg-3 text-muted lh-lg">
+            <p class="h4">Digital Innovation</p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Central GGP Terbanggi Besar</span>
+              </li>
+              <li>
+                <i class="bi bi-envelope-check-fill"></i>
+                <span>innovation.dept@gg-foods.com</span>
+              </li>
+              <li>
+                <i class="bi bi-telephone-fill"></i>
+                <span>+62 821 5324 6396</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr style="border-color: aliceblue" />
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h6 class="farm">
+              © 2023 Digital Innovation . Design by Template River.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    footer area end     -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
